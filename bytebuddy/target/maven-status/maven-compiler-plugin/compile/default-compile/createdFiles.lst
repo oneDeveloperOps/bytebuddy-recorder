@@ -1,0 +1,4 @@
+org/recordreplay/RecordInstrumentionModule.class
+org/recordreplay/RecordInstrumention$CreatePostAdvice.class
+META-INF/services/io.opentelemetry.javaagent.extension.instrumentation.InstrumentationModule
+org/recordreplay/RecordInstrumention.class

@@ -1,0 +1,6 @@
+java -javaagent:opentelemetry-javaagent.jar \
+-Dotel.traces.exporter=none \
+-Dotel.metrics.exporter=none \
+ -Dotel.service.name=record \
+ -Dotel.javaagent.extensions=bytebuddy/target/bytebuddy-1.0-SNAPSHOT.jar
+-Dotel.javaagent.debug=true -jar record/build/libs/record-0.0.1-SNAPSHOT.jar
